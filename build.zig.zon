@@ -1,0 +1,16 @@
+.{
+    .name = .zig_os,
+    .fingerprint = 0x65216be1a7525378,
+    .version = "0.0.0",
+    .dependencies = .{
+        .ovmf = .{
+            .url = "https://github.com/rust-osdev/ovmf-prebuilt/releases/download/edk2-stable202605-r1/edk2-stable202605-r1-bin.tar.xz",
+            .hash = "N-V-__8AAAA7yAyUqa50PddDh8dD3fVJb8Q8W9ZuaSgDBlJn",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
